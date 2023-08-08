@@ -1,0 +1,18 @@
+{
+  "name": "testing-upload-server",
+  "version": "0.0.1",
+  "description": "Try use Upload System with Node.js",
+  "main": "src/app.js",
+  "scripts": {
+    "d": "nodemon src/app.js"
+  },
+  "author": "Gabriel M. dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
